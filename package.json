@@ -1,13 +1,21 @@
 {
-  "name": "xy",
+  "name": "xianyu",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiyueyueyue/xianyu.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiyueyueyue/xianyu/issues"
+  },
+  "homepage": "https://github.com/kaiyueyueyue/xianyu#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
