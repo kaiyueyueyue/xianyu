@@ -125,18 +125,42 @@ section{
             height:1.2rem;
             padding-left: 0.13rem;
             padding-top:0.09rem;
+            span{
+                display: inline-block;
+                padding:0 0.05rem;
+                font-size: 0.1rem;
+                border-radius: 4px;
+                text-align: center;
+                line-height: 0.18rem;
+                color:#fff;
+            }
         }
         .pic-1{
             background: #f7f7f7 url(../img/class-1.png) 12px 0.6rem no-repeat;
+            span{
+                background: #00bb5c;
+            }
         }
         .pic-2{
             background: #f7f7f7 url(../img/class-2.png) 12px 0.6rem no-repeat;
+            h3{
+                color:#ff7733;
+            }
+            span{
+                background-color: #ff7733;
+            }
         }
         .pic-3{
             background: #f7f7f7 url(../img/class-4.png) 1rem 0.08rem no-repeat;
+            h3{
+                color: #232323;
+            }
         }
         .pic-4{
             background: #f7f7f7 url(../img/class-3.png) 1.2rem 0.08rem no-repeat;
+            h3{
+                color: #232323;
+            }
         }
     }
 }
@@ -148,7 +172,7 @@ section{
 .tab{
     display: flex;
     border-bottom: 2px solid #e7e7e7;
-    background: #fff;
+    position: relative;
     li{
         flex: 1;
         text-align: center;
@@ -160,16 +184,15 @@ section{
         color:#1f1f1f;
         line-height: 0.43rem;
         padding:0 0.2rem;
-  }
-    .active{
-        background: url(../img/tab-bg.png) center 0.4rem no-repeat;
+    }
+    img{
+        position: absolute;
+        left:0.63rem;
+        top:0.4rem;
     }
 }
-.list{
-    display: none;
-}
 .active{
-    display: block;
+    display: none;
 }
 .box{
     margin-bottom:0.13rem;
