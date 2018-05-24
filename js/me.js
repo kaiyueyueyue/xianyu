@@ -1,0 +1,1 @@
+"use strict";$(".foot li").each(function(c,o){$(o).click(function(){$(".foot a").each(function(c,o){$(o).removeClass("active")}),$(this).children().addClass("active")})}),window.onscroll=function(){20<=document.documentElement.scrollTop?$(".title").css("display","block"):$(".title").css("display","none")};

@@ -15,7 +15,7 @@ gulp.task('minifyCss',function(){
     return gulp.src('./src/style/*.scss')
         .pipe(sass())
         .pipe(minifyCss())
-        .pipe(gulp.dest('./dist/css/'));
+        .pipe(gulp.dest('./css/'));
 })
 
 // gulp.task()
@@ -24,7 +24,7 @@ gulp.task('minifyJs',function(){
     return gulp.src('./src/js/*.js')
         .pipe(babel())
         .pipe(minifyJs())
-        .pipe(gulp.dest('./dist/js/'));
+        .pipe(gulp.dest('./js/'));
 })
 
 //自动刷新
@@ -41,3 +41,4 @@ gulp.task('default',['minifyCss'],function(){
         livereload:true
     })
 })
+
