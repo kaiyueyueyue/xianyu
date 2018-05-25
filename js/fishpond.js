@@ -1,0 +1,1 @@
+"use strict";$(".foot li").each(function(c,i){$(i).click(function(){$(".foot a").each(function(c,i){$(i).removeClass("active")}),$(this).children().addClass("active")})});

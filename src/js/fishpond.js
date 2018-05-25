@@ -9,15 +9,3 @@ $('.foot li').each((n, m)=>{
     })
 
 })
-
-
-$('.box').scroll(function(){
-	let t = $('.box').scrollTop();
-	if(t > 200){
-		$('.title').css('display','block')
-		
-	}else{
-		$('.title').css('display','none')
-
-	}
-})
