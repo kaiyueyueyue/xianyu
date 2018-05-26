@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+}
+ul,ol,dl{
+    list-style:none;
+}
+img{
+    display: block;
+    border:0;
+}
+a{
+    text-decoration: none;
+}
+body,html{
+    height:100%;
+    font-size:26.67vw;
+    background: #f4f5f9;
+}
+p{
+    display: flex;
+    color:#000;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:0 0.1rem;
+    background: #fff;
+    span{
+        &:first-child{
+            font-size: 0.3rem;
+        }
+        &:nth-child(2){
+            font-size: 0.18rem;
+        }
+        line-height: 0.4rem;
+    }
+    .icon-fuwuerji{
+        display: block;
+        line-height: 0.4rem;
+        font-size: 0.2rem;
+    }
+}
+
+form{
+	height:1.18rem;
+	background: url(../img/game/search-bg.jpg) center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	input{
+		width:3.4rem;
+		height:0.32rem;
+		background: #f1f2f6;
+		text-indent:0.3rem;
+		border:0;
+		outline: none;
+		display: block;
+		border-radius: 0.06rem;
+		margin :0.12rem auto 0;
+	}
+}
